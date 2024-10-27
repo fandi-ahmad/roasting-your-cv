@@ -8,7 +8,7 @@ import Linked from './components/Linked';
 
 function App() {
   const fileInputRef = useRef<HTMLInputElement | null>(null);
-  const mainprompt = import.meta.env.VITE_MAIN_PROMPT
+  const mainprompt = 'buatlah 1 paragraf untuk mengritik isi dari cv ini untuk lebih baik lagi secara panas, beri tau bagian mana yang perlu diperbaiki jika ada, dengan kalimat yang sedikit kasar dan agak nyeselin tapi masih wajar. dalam kritik yang diberikan gunakan kalimat analogi (salah satu contohnya, cv mu ini cocok jadi daftar menu makanan yang hanya menampilkan daftar menu, atau gunakan contoh lain jika memang lebih mendekati, tidak harus dengan daftar menu makanan). jika dirasa cv ini kurang sesuai dengan apa karir yang dituju, kasih tau cocoknya jadi apa yang sangat-sangat jauh dari karir yang ingin ditujunya berdasarkan kritikan. di awal kalimat panggil namanya dan gunakan bahasa indonesia'
   const [prompt, setPrompt] = useState('')
   const [result, setResult] = useState('')
   const [isDisableBtn, setIsDisableBtn] = useState<boolean>(false)

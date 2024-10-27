@@ -19,4 +19,3 @@ Duplicate and rename `.env`, then remove `.example` in the file name.
 | key             |
 | :--------       |
 | VITE_API_KEY    |
-| VITE_MAIN_PROMPT|
