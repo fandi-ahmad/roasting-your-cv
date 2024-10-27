@@ -37,9 +37,9 @@ function App() {
   const extractTextFromPdf = async (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
     if (file) {
-      // Memeriksa ukuran file (3MB = 3 * 1024 * 1024 bytes)
-      if (file.size > 3 * 1024 * 1024) {
-        alert('Maksimal size 3mb!')
+      // Memeriksa ukuran file (5MB = 5 * 1024 * 1024 bytes)
+      if (file.size > 5 * 1024 * 1024) {
+        alert('Maksimal size 5mb!')
         if (fileInputRef.current) {
           fileInputRef.current.value = ''
         }
