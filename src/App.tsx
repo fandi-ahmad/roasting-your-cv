@@ -67,7 +67,7 @@ function App() {
 
       <Card>
         <ol className='list-decimal ps-4'>
-          <li>Upload file CV mu dengan format <b>PDF</b> dan maksimal size <b>3 mb</b></li>
+          <li>Upload file CV mu dengan format <b>PDF</b> dan maksimal size <b>5 mb</b></li>
           <li>Klik tombol "Roasting sekarang"</li>
           <li>Selamat menikmati roastingan😅</li>
         </ol>
